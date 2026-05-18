@@ -74,18 +74,18 @@ button:disabled {
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
 }
 
 .mark {
   display: grid;
   place-items: center;
-  width: 48px;
-  height: 48px;
-  border-radius: 8px;
-  color: #ffffff;
-  background: linear-gradient(135deg, #123a5d, #0f8aa3);
-  font-weight: 800;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  color: #2f6f86;
+  background: linear-gradient(135deg, #d8edf4, #c5e1ee);
+  font-weight: 700;
 }
 
 h1,
@@ -96,8 +96,16 @@ p {
 }
 
 .brand h1 {
+  margin-bottom: 2px;
+  color: #17324d;
+  font-size: 1.2rem;
+  font-weight: 650;
+  line-height: 1.1;
+}
+
+.brand p {
   margin-bottom: 0;
-  font-size: 1.3rem;
+  font-size: 0.96rem;
 }
 
 .brand p,
